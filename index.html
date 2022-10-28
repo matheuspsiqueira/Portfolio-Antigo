@@ -10,22 +10,22 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
 
 </head>
-<body class="bg-light">
+<body class="bg-dark bg-gradient text-info">
     <!-- Navbar Início -->
-    <nav class="navbar navbar-light bg-light shadow-sm">
+    <nav class="navbar navbar-light bg-dark shadow-sm">
         <div class="container-lg">
-          <a class="navbar-brand text-danger fw-bold fs-4" href="#">M.P.S</a>
+          <a class="navbar-brand text-info fw-bold fs-4" href="#">M.S</a>
           <div class="dropdown">
-            <button class="btn btn-secondary btn-danger px-3" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="dropdownMenuButton">
+            <button class="btn btn-secondary btn-info px-3" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="dropdownMenuButton">
               <i class="fas fa-bars"></i>
             </button>
-            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
-              <li><a class="dropdown-item" href="#home">Home</a></li>
-              <li><a class="dropdown-item" href="#about">Quem Sou</a></li>
-              <li><a class="dropdown-item" href="#services">Serviços</a></li>
-              <li><a class="dropdown-item" href="#portfolio">Portfolio</a></li>
-              <li><a class="dropdown-item" href="#testimonials">Testemunho</a></li>
-              <li><a class="dropdown-item" href="#contact">Contato</a></li>
+            <ul class="dropdown-menu dropdown-menu-end bg-dark" aria-labelledby="dropdownMenuButton">
+              <li><a class="dropdown-item text-primary" href="#home">Home</a></li>
+              <li><a class="dropdown-item text-primary" href="#about">Quem Sou</a></li>
+              <li><a class="dropdown-item text-primary" href="#services">Serviços</a></li>
+              <li><a class="dropdown-item text-primary" href="#portfolio">Portfolio</a></li>
+              <li><a class="dropdown-item text-primary" href="#testimonials">Testemunho</a></li>
+              <li><a class="dropdown-item text-primary" href="#contact">Contato</a></li>
             </ul>
           </div>
        </div>
@@ -34,24 +34,26 @@
     <!-- Navbar Fim -->
     <!-- Header Início -->
     <selection class="home py-5" id="home">
-      <div class="container-lg">
-        <div class="row min-vh-100 align-items-center align-content-center">
-          <div class="col-md-6 mt-5 mt-md-0">
-            <div class="home-img text-center">
-              <img src="img/foto.jpg" class="rounded-circle mw-900" alt="profile img">
+        <div class="p-3 mb-2 text-white">
+            <div class="container-lg">
+                <div class="row min-vh-100 align-items-center align-content-center">
+                    <div class="col-md-6 mt-5 mt-md-0">
+                        <div class="home-img text-center">
+                            <img src="img/foto.jpg" class="rounded-circle mw-900" alt="profile img">
+                        </div>
+                    </div>
+                    <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+                        <div class="home-text">
+                            <h1 class="text-info text-uppercase fs-1 fw-bold">Desenvolvedor</h1>
+                            <h2 class="fs-4">Matheus Siqueira</h2>
+                            <p class="text-light">Sou um homem que ama aplicar meus conhecimentos para solucionar problemas, aprender novas tecnologias e agregar valor ao time de desenvolvimento.</p>
+                            <a href="#portfolio" class="btn btn-info px-3 mt-3">Meus Projetos</a>
+                            <a href="cv.pdf" class="btn btn-info px-3 mt-3">Currículo</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col-md-6 mt-5 mt-md-0 order-md-first">
-            <div class="home-text">
-              <h1 class="text-danger text-uppercase fs-1 fw-bold">Desenvolvedor</h1>
-              <h2 class="fs-4">Matheus Siqueira</h2>
-              <p class="mt-4 text-muted">Sou um homem que ama aplicar meus conhecimentos para solucionar problemas, aprender novas tecnologias e agregar valor ao time de desenvolvimento.</p>
-              <a href="#portfolio" class="btn btn-danger px-3 mt-3">Meus Projetos</a>
-              <a href="cv.pdf" class="btn btn-danger px-3 mt-3">Currículo</a>
-            </div>
-          </div>
         </div>
-      </div>
     </selection>
     <!-- Header Fim -->
 <!-- Sobre Mim Início -->
@@ -68,16 +70,16 @@
          <div class="col-md-6">
             <div class="about-text">
                <h3 class="fs-4 mb-3">Um pouco mais sobre mim</h3>
-               <p class="text-muted">Oi! Meu nome é Matheus Siqueira. Eu sou um programador. A partir do momento que produzi "Hello World" no console do meu primeiro aplicativo durante meu curso técnico, eu sabia que estava ligado ao mundo do desenvolvimento de software. Porém, o desenvolvimento de software nunca foi "apenas um trabalho" para mim. O mesmo sempre ofereceu um desafio envolvente para aprender continuamente e melhorar minhas habilidades na criação de software. O que começou com um simples "Hello World" tornou-se uma paixão completa que só fica mais emocionante com o passar dos anos.</p>
+               <p class="text-light">Oi! Meu nome é Matheus Siqueira. Eu sou um programador. A partir do momento que produzi "Hello World" no console do meu primeiro aplicativo durante meu curso técnico, eu sabia que estava ligado ao mundo do desenvolvimento de software. Porém, o desenvolvimento de software nunca foi "apenas um trabalho" para mim. O mesmo sempre ofereceu um desafio envolvente para aprender continuamente e melhorar minhas habilidades na criação de software. O que começou com um simples "Hello World" tornou-se uma paixão completa que só fica mais emocionante com o passar dos anos.</p>
             </div>
             
             <div class="row">
                 <div class="col-lg-12 d-flex align-items-center">
-                    <a href="cv.pdf" class="btn px-3 btn-danger me-5">Download CV</a>
+                    <a href="cv.pdf" class="btn px-3 btn-info me-5">Download CV</a>
                     <div class="social-links">
-                       <a href="https://github.com/MatheusPSiqueira" class="text-dark me-2"><i class="fab fa-github"></i></a>
-                       <a href="https://www.instagram.com/siqueiramt_/" class="text-dark me-2"><i class="fab fa-instagram"></i></a>
-                       <a href="https://www.linkedin.com/in/matheus-siqueira-755a4020a/" class="text-dark me-2"><i class="fab fa-linkedin-in"></i></a>
+                       <a href="https://github.com/MatheusPSiqueira" class="text-info me-2"><i class="fab fa-github"></i></a>
+                       <a href="https://www.instagram.com/siqueiramt_/" class="text-info me-2"><i class="fab fa-instagram"></i></a>
+                       <a href="https://www.linkedin.com/in/matheus-siqueira-755a4020a/" class="text-info me-2"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
             </div>
@@ -86,31 +88,31 @@
             <div class="skill-item mb-4">
                 <h3 class="fs-6">Css</h3>
                 <div class="progress" style="height: 5px;">
-                   <div class="progress-bar bg-danger" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                   <div class="progress-bar bg-primary" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
             </div>
             <div class="skill-item mb-4">
                 <h3 class="fs-6">Html</h3>
                 <div class="progress" style="height: 5px;">
-                   <div class="progress-bar bg-danger" role="progressbar" style="width: 75%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                   <div class="progress-bar bg-primary" role="progressbar" style="width: 75%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
             </div>
             <div class="skill-item mb-4">
                 <h3 class="fs-6">Django</h3>
                 <div class="progress" style="height: 5px;">
-                   <div class="progress-bar bg-danger" role="progressbar" style="width: 20%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                   <div class="progress-bar bg-primary" role="progressbar" style="width: 20%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
             </div>
             <div class="skill-item mb-4">
                 <h3 class="fs-6">JavaScript</h3>
                 <div class="progress" style="height: 5px;">
-                   <div class="progress-bar bg-danger" role="progressbar" style="width: 30%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                   <div class="progress-bar bg-primary" role="progressbar" style="width: 30%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
             </div>
             <div class="skill-item">
               <h3 class="fs-6">Python</h3>
               <div class="progress" style="height: 5px;">
-                 <div class="progress-bar bg-danger" role="progressbar" style="width: 85%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                 <div class="progress-bar bg-primary" role="progressbar" style="width: 85%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
          </div>
@@ -130,30 +132,30 @@
       </div>
       <div class="row text-center">
           <div class="col-md-6 col-lg-4 mb-4">
-              <div class="service-item shadow-sm p-4 rounded bg-white">
-                  <div class="icon my-3 text-danger fs-2">
+              <div class="service-item shadow-sm p-4 rounded bg-dark">
+                  <div class="icon my-3 text-info fs-2">
                     <i class="fas fa-code"></i>
                   </div>
                   <h3 class="fs-5 py-2">Design Web</h3>
-                  <p class="text-muted">Construção de sites, aplicativos e softwares voltados ao serviço do usuário, sendo pelo Front ou Back-End.</p>
+                  <p class="text-light">Construção de sites, aplicativos e softwares voltados ao serviço do usuário, sendo pelo Front ou Back-End.</p>
               </div>
           </div>
           <div class="col-md-6 col-lg-4 mb-4">
-              <div class="service-item shadow-sm p-4 rounded bg-white">
-                  <div class="icon my-3 text-danger fs-2">
+              <div class="service-item shadow-sm p-4 rounded bg-dark">
+                  <div class="icon my-3 text-info fs-2">
                     <i class="fas fa-mobile-alt"></i>
                   </div>
                   <h3 class="fs-5 py-2">Design Responsivo</h3>
-                  <p class="text-muted">Design responsivos ao comportamento e ambiente do usuário com base no tamanho da tela, plataforma e orientação.</p>
+                  <p class="text-light">Design responsivos ao comportamento e ambiente do usuário com base no tamanho da tela, plataforma e orientação.</p>
               </div>
           </div>
           <div class="col-md-6 col-lg-4 mb-4">
-              <div class="service-item shadow-sm p-4 rounded bg-white">
-                  <div class="icon my-3 text-danger fs-2">
+              <div class="service-item shadow-sm p-4 rounded bg-dark">
+                  <div class="icon my-3 text-info fs-2">
                     <i class="fas fa-check"></i>
                   </div>
                   <h3 class="fs-5 py-2">Clean Code</h3>
-                  <p class="text-muted">Programação utilizando código limpo, compreensível e mantenedor para facíl compreensão.</p>
+                  <p class="text-light">Programação utilizando código limpo, compreensível e mantenedor para facíl compreensão.</p>
               </div>
           </div>
       </div>
@@ -175,42 +177,42 @@
             <div class="portfolio-item">
                <img src="img/portfolio/Saude+1.png" class="w-100 img-thumbnail" alt="portfolio item">
                <h3 class="text-capitalize fs-5 my-2">Saúde+</h3>
-               <p class="mb-4"><a href="https://matheuspsiqueira.github.io/Projeto_SaudeMais/" class="text-danger text-decoration-none">Live Demo</a></p>
+               <p class="mb-4"><a href="https://matheuspsiqueira.github.io/Projeto_SaudeMais/" class="text-primary text-decoration-none">Live Demo</a></p>
             </div>
         </div>
         <div class="col-md-6 col-lg-4">
             <div class="portfolio-item">
                <img src="img/portfolio/2.jpg" class="w-100 img-thumbnail" alt="portfolio item">
                <h3 class="text-capitalize fs-5 my-2">app landing page</h3>
-               <p class="mb-4"><a href="#" class="text-danger text-decoration-none"></a></p>
+               <p class="mb-4"><a href="#" class="text-primary text-decoration-none">Live Demo</a></p>
             </div>
         </div>
         <div class="col-md-6 col-lg-4">
             <div class="portfolio-item">
                <img src="img/portfolio/3.jpg" class="w-100 img-thumbnail" alt="portfolio item">
                <h3 class="text-capitalize fs-5 my-2">creative team section</h3>
-               <p class="mb-4"><a href="#" class="text-danger text-decoration-none"></a></p>
+               <p class="mb-4"><a href="#" class="text-primary text-decoration-none">Live Demo</a></p>
             </div>
         </div>
         <div class="col-md-6 col-lg-4">
             <div class="portfolio-item">
                <img src="img/portfolio/4.jpg" class="w-100 img-thumbnail" alt="portfolio item">
                <h3 class="text-capitalize fs-5 my-2">toggle pricing table</h3>
-               <p class="mb-4"><a href="#" class="text-danger text-decoration-none"></a></p>
+               <p class="mb-4"><a href="#" class="text-primary text-decoration-none">Live Demo</a></p>
             </div>
         </div>
         <div class="col-md-6 col-lg-4">
             <div class="portfolio-item">
                <img src="img/portfolio/5.jpg" class="w-100 img-thumbnail" alt="portfolio item">
                <h3 class="text-capitalize fs-5 my-2">bootstrap 5 image gallery</h3>
-               <p class="mb-4"><a href="#" class="text-danger text-decoration-none"></a></p>
+               <p class="mb-4"><a href="#" class="text-primary text-decoration-none">Live Demo</a></p>
             </div>
         </div>
         <div class="col-md-6 col-lg-4">
             <div class="portfolio-item">
                <img src="img/portfolio/6.jpg" class="w-100 img-thumbnail" alt="portfolio item">
                <h3 class="text-capitalize fs-5 my-2">filterable image gallery</h3>
-               <p class="mb-4"><a href="#" class="text-danger text-decoration-none"></a></p>
+               <p class="mb-4"><a href="#" class="text-primary text-decoration-none">Live Demo</a></p>
             </div>
         </div>
      </div>
@@ -218,7 +220,7 @@
 </section>
 <!-- portfolio section end -->
 <!-- freelancer available section start -->
-<section class="freelancer-available py-5 bg-danger">
+<section class="freelancer-available py-5 bg-info">
   <div class="container-lg py-4">
     <div class="row justify-content-center">
       <div class="col-lg-8 text-center">
@@ -244,22 +246,22 @@
           <div class="col-lg-8 col-xl-7">
             <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
               <ol class="carousel-indicators">
-                 <li data-bs-target="#carousel1" data-bs-slide-to="0" class="active bg-danger"></li>
-                 <li class="bg-danger" data-bs-target="#carousel1" data-bs-slide-to="1"></li>
-                 <li class="bg-danger" data-bs-target="#carousel1" data-bs-slide-to="2"></li>
+                 <li data-bs-target="#carousel1" data-bs-slide-to="0" class="active bg-info"></li>
+                 <li class="bg-info" data-bs-target="#carousel1" data-bs-slide-to="1"></li>
+                 <li class="bg-info" data-bs-target="#carousel1" data-bs-slide-to="2"></li>
               </ol>
               <div class="carousel-inner p-1">
               <!-- testi item start -->
-              <div class="testi-item carousel-item active bg-white shadow-sm rounded p-4 mb-5">
+              <div class="testi-item carousel-item active bg-dark shadow-sm rounded p-4 mb-5">
                   <div class="testi-author-info d-flex align-items-center">
                       <img src="https://iuriaalmeida.github.io/Portifolio-Bootstrap/img/unnamed.jpeg" class="img-thumbnail rounded-circle" alt="author img">
                       <div class="author ms-3">
                          <h3 class="fs-6 mb-1">Iuri Alan</h3>
-                         <p class="text-muted m-0">Gestor de Projetos</p>
+                         <p class="text-white m-0">Gestor de Projetos</p>
                       </div>
                   </div>
-                  <p class="text-muted mt-3">Sou cliente desde 26/10/2019, quando pedi que desenvolvesse o site da minha empresa. Sempre fui atendido com muita rapidez e comprometimento com o resultado. Hoje, quase três anos depois, posso afirmar que essa parceria foi a melhor coisa que fiz, por isso, recomendo com muita satisfação. Além de um profissional capacitado, nos atende com muita dedicação.</p>
-                  <div class="rating text-danger">
+                  <p class="text-white mt-3">Sou cliente desde 26/10/2019, quando pedi que desenvolvesse o site da minha empresa. Sempre fui atendido com muita rapidez e comprometimento com o resultado. Hoje, quase três anos depois, posso afirmar que essa parceria foi a melhor coisa que fiz, por isso, recomendo com muita satisfação. Além de um profissional capacitado, nos atende com muita dedicação.</p>
+                  <div class="rating text-primary">
                      <i class="fas fa-star"></i>
                      <i class="fas fa-star"></i>
                      <i class="fas fa-star"></i>
@@ -269,16 +271,16 @@
               </div>
               <!-- testi item end -->
               <!-- testi item start -->
-              <div class="testi-item carousel-item bg-white shadow-sm rounded p-4 mb-5">
+              <div class="testi-item carousel-item bg-dark shadow-sm rounded p-4 mb-5">
                   <div class="testi-author-info d-flex align-items-center">
                       <img src="https://uploaddeimagens.com.br/images/004/067/316/full/WhatsApp_Image_2022-10-19_at_13.26.21.jpg?1666197936" class="img-thumbnail rounded-circle" alt="author img">
                       <div class="author ms-3">
                          <h3 class="fs-6 mb-1">Mariana Oliveira</h3>
-                         <p class="text-muted m-0">Servidora Pública</p>
+                         <p class="text-white m-0">Servidora Pública</p>
                       </div>
                   </div>
-                  <p class="text-muted mt-3">Comprometido com o nosso resultado, comunicação clara e objetiva!! Com certeza contribuiu em grande parte para o nosso crescimento e estruturação em tempos difíceis.</p>
-                  <div class="rating text-danger">
+                  <p class="text-white mt-3">Comprometido com o nosso resultado, comunicação clara e objetiva!! Com certeza contribuiu em grande parte para o nosso crescimento e estruturação em tempos difíceis.</p>
+                  <div class="rating text-primary">
                      <i class="fas fa-star"></i>
                      <i class="fas fa-star"></i>
                      <i class="fas fa-star"></i>
@@ -288,16 +290,16 @@
               </div>
               <!-- testi item end -->
               <!-- testi item start -->
-              <div class="testi-item carousel-item bg-white shadow-sm rounded p-4 mb-5">
+              <div class="testi-item carousel-item bg-dark shadow-sm rounded p-4 mb-5">
                   <div class="testi-author-info d-flex align-items-center">
                       <img src="https://uploaddeimagens.com.br/images/004/067/321/thumb/WhatsApp_Image_2022-10-19_at_13.31.43.jpg?1666198050" class="img-thumbnail rounded-circle" alt="author img">
                       <div class="author ms-3">
                          <h3 class="fs-6 mb-1">Lavínia Monteiro</h3>
-                         <p class="text-muted m-0">Esteticista</p>
+                         <p class="text-white m-0">Esteticista</p>
                       </div>
                   </div>
-                  <p class="text-muted mt-3">Extremamente atenciosos e profissional, não é surpresa que dessa forma nos traz bons resultados. Indico de olhos fechados!</p>
-                  <div class="rating text-danger">
+                  <p class="text-white mt-3">Extremamente atenciosos e profissional, não é surpresa que dessa forma nos traz bons resultados. Indico de olhos fechados!</p>
+                  <div class="rating text-primary">
                      <i class="fas fa-star"></i>
                      <i class="fas fa-star"></i>
                      <i class="fas fa-star"></i>
@@ -326,30 +328,30 @@
       <div class="row">
           <div class="col-md-5">
               <div class="contact-item d-flex mb-3">
-                 <div class="icon fs-4 text-danger">
+                 <div class="icon fs-4 text-primary">
                     <i class="fas fa-envelope"></i>
                  </div>
                  <div class="text ms-3">
                     <h3 class="fs-5">Email</h3>
-                    <p class="text-muted">matheuspontessiqueira@gmail.com</p>
+                    <p class="text-white">matheuspontessiqueira@gmail.com</p>
                  </div>
               </div>
               <div class="contact-item d-flex mb-3">
-                 <div class="icon fs-4 text-danger">
+                 <div class="icon fs-4 text-primary">
                     <i class="fas fa-phone"></i>
                  </div>
                  <div class="text ms-3">
                     <h3 class="fs-5">Telefone</h3>
-                    <p class="text-muted">21 98332-5929</p>
+                    <p class="text-white">21 98332-5929</p>
                  </div>
               </div>
               <div class="contact-item d-flex mb-3">
-                 <div class="icon fs-4 text-danger">
+                 <div class="icon fs-4 text-primary">
                     <i class="fas fa-map-marker-alt"></i>
                  </div>
                  <div class="text ms-3">
                     <h3 class="fs-5">Endereço</h3>
-                    <p class="text-muted">Rio de Janeiro</p>
+                    <p class="text-white">Rio de Janeiro</p>
                  </div>
               </div>
           </div>
@@ -385,7 +387,7 @@
                     </div>
                     <div class="row">
                        <div class="col-lg-12">
-                          <button type="submit" class="btn btn-danger px-3">Enviar mensagem</button>
+                          <button type="submit" class="btn btn-info px-3">Enviar mensagem</button>
                        </div>
                     </div>
                 </form>
@@ -396,11 +398,11 @@
 </section>
 <!-- contact section end -->
  <!-- footer start -->
- <footer class="footer border-top py-4">
+ <footer class="footer border-top py-4 border-info">
     <div class="container-lg">
         <div class="row">
             <div class="col-lg-12">
-                <p class="m-0 text-center text-muted">&copy; 2022 Matheus Siqueira</p>
+                <p class="m-0 text-center text-info">&copy; 2022 Matheus Siqueira</p>
             </div>
         </div>
     </div>
