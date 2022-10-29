@@ -1,0 +1,148 @@
+/* Home Section */
+.home .bg-shapes div{
+    position: absolute;
+    opacity:0.08;
+ }
+ .home .bg-shapes div:nth-child(1){
+     height: 100px;
+     width: 100px;
+     top:20%;
+     left: 20%;
+     background-color:#0dcaf0;
+     border-radius: 50%;
+     animation: shapeani01 5s linear infinite;
+ }
+
+ .home .bg-shapes div:nth-child(3){
+     height: 60px;
+     width: 60px;
+     top:10%;
+     left: 70%;
+     background-color:transparent;
+     border-radius: 50%;
+     border:5px solid #0dcaf0;
+     border-left: 5px solid transparent;
+     border-bottom: 5px solid transparent;
+     animation: shapeani02 7s linear infinite;
+ }
+ 
+ .home .bg-shapes div:nth-child(4){
+     height: 150px;
+     width: 150px;
+     top:40%;
+     left: calc(100% - 180px);
+     background-color:#0dcaf0;
+     border-radius: 50%;
+     animation: shapeani03 10s linear infinite;
+ }
+ 
+ .home .bg-shapes div:nth-child(5){
+     height: 100px;
+     width: 100px;
+     top:40%;
+     left: calc(0% - 50px);
+     background-color:transparent;
+     border:5px solid #0dcaf0;
+     animation: shapeani02 10s linear infinite;
+ }
+ 
+ @keyframes shapeani01{
+     0%,100%{
+       transform: translateX(0px);
+     }
+     50%{
+       transform: translateX(50px);	
+     }
+ }
+ 
+ @keyframes shapeani02{
+     0%{
+       transform: rotate(0deg);
+     }
+     100%{
+       transform: rotate(360deg);	
+     }
+ }
+ @keyframes shapeani03{
+     0%,100%{
+       transform: scale(0.5);
+     }
+     50%{
+       transform: scale(1);
+     }
+ }
+
+/* Testimonials Section */
+
+ .testimonials .bg-shapes div{
+    position: absolute;
+    opacity:0.08;
+ }
+ .testimonials .bg-shapes div:nth-child(1){
+     height: 100px;
+     width: 100px;
+     top:500%;
+     left: 10%;
+     background-color:#0dcaf0;
+     border-radius: 50%;
+     animation: shapeani01 5s linear infinite;
+ }
+
+ .testimonials .bg-shapes div:nth-child(3){
+     height: 60px;
+     width: 60px;
+     top:485%;
+     left: 70%;
+     background-color:transparent;
+     border-radius: 50%;
+     border:5px solid #0dcaf0;
+     border-left: 5px solid transparent;
+     border-bottom: 5px solid transparent;
+     animation: shapeani02 7s linear infinite;
+ }
+ 
+.testimonials .bg-shapes div:nth-child(4){
+     height: 150px;
+     width: 150px;
+     top:550%;
+     left: calc(100% - 200px);
+     background-color:#0dcaf0;
+     border-radius: 50%;
+     animation: shapeani03 10s linear infinite;
+ }
+ 
+ .testimonials .bg-shapes div:nth-child(5){
+     height: 100px;
+     width: 100px;
+     top:540%;
+     left: calc(0% - 50px);
+     background-color:transparent;
+     border:5px solid #0dcaf0;
+     animation: shapeani02 10s linear infinite;
+ }
+ 
+ @keyframes shapeani01{
+     0%,100%{
+       transform: translateX(0px);
+     }
+     50%{
+       transform: translateX(50px);	
+     }
+ }
+ 
+ @keyframes shapeani02{
+     0%{
+       transform: rotate(0deg);
+     }
+     100%{
+       transform: rotate(360deg);	
+     }
+ }
+ @keyframes shapeani03{
+     0%,100%{
+       transform: scale(0.5);
+     }
+     50%{
+       transform: scale(1);
+     }
+ }
