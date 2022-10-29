@@ -1,6 +1,6 @@
 /* Home Section */
 .home .bg-shapes div{
-    position: absolute;
+    position:absolute;
     opacity:0.08;
  }
  .home .bg-shapes div:nth-child(1){
