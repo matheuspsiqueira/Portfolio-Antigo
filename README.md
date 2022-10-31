@@ -1,10 +1,22 @@
-# Projeto Finalizado
+# 💻 Project
 
-###
+Live demo: https://matheuspsiqueira.github.io/Portfolio/
 
-Confira o resultado em: https://matheuspsiqueira.github.io/Portfolio/
+In this project, I'm developing a portfolio for starting programmers.
 
-Caso ocorra algum problema no site, irei corrigi-lo.
+To achieve the final result, I used HTML, CSS, JavaScript and tons and tons of coffee :D
 
+# Technologies
 
-<img src="https://uploaddeimagens.com.br/images/004/066/601/full/png-transparent-programmer-computer-programming-computer-software-allergy-miscellaneous-furniture-reading-thumbnail-removebg-preview.png?1666141581" width=100px align=center>
+This project was developed with the following technologies:
+
+- HTML and CSS
+- JavaScript
+<!-- - [Expo][expo] -->
+
+# Features
+
+- WhatsApp's API for the contact number. Meaning that people can text you via WhatsApp right away just by clicking the contact button.
+- People can download your curriculum with a button.  
+
+# Gallery
