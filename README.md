@@ -20,3 +20,5 @@ This project was developed with the following technologies:
 - People can download your curriculum with a button.  
 
 # Gallery
+
+<img src="img/Meu Portfólio - print completo.png">
