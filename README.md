@@ -21,7 +21,7 @@ This project was developed with the following technologies:
 
 # Gallery
 
-<img src="img/Meu Portfólio - print completo.png">
+<img src="img/Print completo.png">
 
 ##
 
@@ -48,4 +48,4 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
 # Galeria
 
-<img src="img/Meu Portfólio - print completo.png">
+<img src="img/Print completo.png">
