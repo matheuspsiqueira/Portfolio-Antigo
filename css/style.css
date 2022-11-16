@@ -1,3 +1,8 @@
+/* Navbar */
+.dropdown-menu li a:hover{
+  background-color: #000000;
+}
+
 /* Home Section */
 .home .bg-shapes div{
     position:absolute;
@@ -71,6 +76,18 @@
        transform: scale(1);
      }
  }
+
+ /* Services */
+
+.service-item{
+  background-color: #212529;
+  transition: 1s;
+  z-index: 1;
+}
+
+.service-item:hover{
+  background-color: #000000;
+}
 
 /* Portfólio Section */
 
