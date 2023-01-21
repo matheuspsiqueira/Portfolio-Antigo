@@ -1,6 +1,15 @@
+body{
+  background-image: linear-gradient(rgb(41, 41, 41), rgb(19, 19, 19), rgb(41, 41, 41));
+  
+}
+
 /* Navbar */
 .dropdown-menu li a:hover{
   background-color: #000000;
+}
+
+#navbar{
+  background-image: radial-gradient(rgb(41, 41, 41), rgb(19, 19, 19));
 }
 
 /* Home Section */
@@ -87,6 +96,11 @@
 
 .service-item:hover{
   background-color: #000000;
+}
+
+#botao-wpp:hover{
+  color: rgb(0, 204, 255);
+  background-color: rgb(255, 255, 255);
 }
 
 /* Portfólio Section */
@@ -176,3 +190,13 @@ a img:hover{
        transform: scale(1);
      }
  }
+
+#redes-sociais{
+  color: white;
+  transition: 0.5s;
+  margin-right: 10px;
+}
+
+#redes-sociais:hover{
+  color: #2036ff;
+}
