@@ -1,8 +1,8 @@
 # 💻 Project <img src="https://static.vecteezy.com/ti/vetor-gratis/t2/2641490-bandeira-oficial-dos-eua-gr%C3%A1tis-vetor.jpg" width=30>
 
-Live demo: https://matheuspsiqueira.github.io/Portfolio/
+Live demo: https://matheuspsiqueira.github.io/Portfolio-Antigo/
 
-In this project, I'm developing a portfolio for starting programmers.
+In this project, I developed a portfolio for starting programmers.
 
 To achieve the final result, I used HTML, CSS, JavaScript and tons and tons of coffee 😄
 
@@ -27,9 +27,9 @@ This project was developed with the following technologies:
 
 # 💻 Projeto <img src="https://www.gov.br/mre/pt-br/embaixada-seul/arquivos/imagens/BRASIL.png" width=30>
 
-Demonstração: https://matheuspsiqueira.github.io/Portfolio/
+Demonstração: https://matheuspsiqueira.github.io/Portfolio-Antigo/
 
-Neste projeto, estou desenvolvendo um portfólio para programadores iniciantes.
+Neste projeto, desenvolvi um portfólio para programadores iniciantes.
 
 Para chegar ao resultado final, usei HTML, CSS, JavaScript e toneladas e toneladas de café 😄
 
