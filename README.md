@@ -1,4 +1,4 @@
-# 💻 Project <img src="https://static.vecteezy.com/ti/vetor-gratis/t2/2641490-bandeira-oficial-dos-eua-gr%C3%A1tis-vetor.jpg" width=30>
+# 💻 Project <img src="https://static.mundoeducacao.uol.com.br/mundoeducacao/2022/05/bandeira-estados-unidos.jpg" width=30>
 
 Live demo: https://matheuspsiqueira.github.io/Portfolio-Antigo/
 
@@ -25,7 +25,7 @@ This project was developed with the following technologies:
 
 ##
 
-# 💻 Projeto <img src="https://www.gov.br/mre/pt-br/embaixada-seul/arquivos/imagens/BRASIL.png" width=30>
+# 💻 Projeto <img src="https://www.curitiba.pr.leg.br/atividade-parlamentar/legislacao/imagens/bandeira-do-brasil.png/image" width=30>
 
 Demonstração: https://matheuspsiqueira.github.io/Portfolio-Antigo/
 
